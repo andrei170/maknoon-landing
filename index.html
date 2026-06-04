@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Maknoon | Sommelier-Grade Levantine Olive Oil &amp; Gifts</title>
+<meta name="description" content="Single-farm extra virgin olive oil from Lebanon, Palestine, and Syria, chosen as gifts by the world's finest houses. Premium olive oil and corporate gifting, delivered across the UAE.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Maknoon | Sommelier-Grade Levantine Olive Oil &amp; Gifts">
+<meta property="og:description" content="Single-farm Levantine olive oil and premium gifting, from a certified olive oil sommelier. Chosen by the world's finest houses. Shop or gift across the UAE.">
+<meta property="og:url" content="https://andrei170.github.io/maknoon-landing/">
+<meta property="og:image" content="https://andrei170.github.io/maknoon-hub/og-image.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Maknoon | Sommelier-Grade Levantine Olive Oil &amp; Gifts">
+<meta name="twitter:description" content="Single-farm Levantine olive oil and premium gifting. Chosen by the world's finest houses.">
+<meta name="twitter:image" content="https://andrei170.github.io/maknoon-hub/og-image.png">
+<link rel="icon" href="data:image/svg+xml,&lt;svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'&gt;&lt;text y='.9em' font-size='90'&gt;&#x1FAD2;&lt;/text&gt;&lt;/svg&gt;">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --olive:#5f6b3a;
+    --olive-bright:#7a8a4c;
+    --olive-deep:#414c27;
+    --gold:#b8923e;
+    --gold-bright:#cba85a;
+    --cream:#f6f1e6;
+    --paper:#fffdf7;
+    --ink:#33301f;
+    --body:#54513c;
+    --muted:#867f66;
+    --line:#e6e0cf;
+    --deep:#252410;
+  }
+  *{margin:0;padding:0;box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{font-family:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;color:var(--body);background:var(--cream);line-height:1.72;font-size:17px;-webkit-font-smoothing:antialiased;}
+  h1,h2,h3,h4{font-family:'Fraunces',Georgia,serif;font-weight:500;line-height:1.15;color:var(--ink);letter-spacing:.005em;}
+  h1{font-size:3.4rem;}
+  h2{font-size:2.4rem;}
+  h3{font-size:1.4rem;}
+  p{margin-bottom:1rem;}
+  a{text-decoration:none;color:inherit;}
+  .wrap{max-width:1080px;margin:0 auto;padding:0 24px;}
+  section{padding:82px 0;}
+
+  .btn{display:inline-block;background:var(--olive-deep);color:var(--cream);font-family:'Inter',sans-serif;font-weight:600;font-size:.95rem;letter-spacing:.02em;padding:16px 36px;border-radius:4px;border:none;cursor:pointer;transition:transform .18s ease, box-shadow .18s ease, background .18s ease;}
+  .btn:hover{background:var(--gold);color:#fff;transform:translateY(-2px);box-shadow:0 14px 32px rgba(184,146,62,.3);}
+  .btn-sm{padding:11px 22px;font-size:.86rem;}
+  .btn-gold{background:linear-gradient(90deg,var(--gold),var(--gold-bright));color:#fff;}
+  .btn-gold:hover{filter:brightness(1.05);background:linear-gradient(90deg,var(--gold),var(--gold-bright));color:#fff;}
+  .btn-ghost{background:transparent;color:var(--ink);border:1.5px solid var(--ink);}
+  .btn-ghost:hover{background:var(--ink);color:var(--cream);}
+
+  nav{position:sticky;top:0;z-index:50;background:rgba(246,241,230,.95);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);border-bottom:1px solid var(--line);}
+  .nav-inner{display:flex;align-items:center;justify-content:space-between;height:74px;}
+  .wordmark{font-family:'Fraunces',serif;font-weight:600;font-size:1.6rem;color:var(--ink);letter-spacing:.08em;text-transform:uppercase;}
+  .wordmark small{display:block;font-family:'Inter',sans-serif;font-size:.54rem;letter-spacing:.24em;color:var(--muted);text-transform:uppercase;margin-top:-2px;}
+
+  .hero{background:linear-gradient(180deg,var(--cream) 0%, var(--paper) 100%);padding:100px 0 90px;text-align:center;border-bottom:1px solid var(--line);position:relative;overflow:hidden;}
+  .hero::before{content:"";position:absolute;inset:0;background:radial-gradient(ellipse at top, rgba(95,107,58,.12), transparent 62%);pointer-events:none;}
+  .hero .wrap{position:relative;z-index:1;}
+  .hero .kicker{font-family:'Inter',sans-serif;text-transform:uppercase;letter-spacing:.28em;font-size:.74rem;font-weight:600;color:var(--olive);margin-bottom:24px;}
+  .hero h1{max-width:19ch;margin:0 auto;font-size:3.6rem;}
+  .hero h1 .it{font-style:italic;color:var(--gold);}
+  .hero-rule{width:64px;height:2px;background:var(--gold);margin:28px auto 22px;}
+  .hero-sub{font-size:1.22rem;color:var(--body);max-width:56ch;margin:6px auto 32px;font-weight:400;}
+  .hero-cta{display:flex;gap:14px;justify-content:center;flex-wrap:wrap;}
+  .trust-line{margin-top:24px;font-size:.92rem;color:var(--muted);letter-spacing:.02em;}
+
+  .strip{background:var(--olive-deep);color:#e7e3cf;padding:26px 0;}
+  .strip-label{text-align:center;font-size:.7rem;letter-spacing:.3em;text-transform:uppercase;color:#bdb78f;margin-bottom:14px;}
+  .strip-grid{display:flex;flex-wrap:wrap;gap:12px 30px;justify-content:center;align-items:center;}
+  .strip-grid span{font-family:'Fraunces',serif;font-size:1.14rem;color:#f1edda;}
+  .strip-grid .dot{color:var(--gold-bright);}
+
+  .lead{font-size:1.18rem;color:var(--body);max-width:62ch;}
+  .col-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-top:40px;}
+  .col{background:var(--paper);border:1px solid var(--line);border-radius:8px;padding:26px 22px;text-align:center;transition:transform .2s ease, box-shadow .2s ease;}
+  .col:hover{transform:translateY(-3px);box-shadow:0 16px 36px rgba(51,48,31,.1);}
+  .col .e{font-size:1.7rem;display:block;margin-bottom:10px;}
+  .col h3{font-size:1.15rem;margin-bottom:4px;}
+  .col p{margin:0;color:var(--muted);font-size:.9rem;}
+
+  .alt{background:var(--paper);}
+  .feat{display:grid;grid-template-columns:1fr 1fr;gap:44px;align-items:center;max-width:980px;margin:0 auto;}
+  .feat-card{background:var(--cream);border:1px solid var(--line);border-radius:12px;padding:42px 38px;}
+  .feat-card .tag{display:inline-block;font-family:'Inter',sans-serif;font-size:.66rem;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--gold);background:rgba(184,146,62,.12);padding:5px 13px;border-radius:30px;margin-bottom:14px;}
+  .feat-card h3{font-size:1.9rem;margin-bottom:10px;}
+  .feat-card p{color:var(--body);}
+
+  .pillars{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-top:40px;}
+  .pillar{text-align:center;padding:24px 18px;}
+  .pillar .e{font-size:1.8rem;display:block;margin-bottom:10px;}
+  .pillar h4{font-family:'Fraunces',serif;font-size:1.12rem;color:var(--ink);margin-bottom:6px;}
+  .pillar p{margin:0;color:var(--muted);font-size:.92rem;}
+
+  .corp{background:var(--deep);color:#e7e3cf;}
+  .corp h2{color:#fff;}
+  .corp .eyebrow{color:var(--gold-bright);}
+  .corp p{color:#cfc9ac;font-size:1.12rem;}
+  .corp-inner{max-width:760px;margin:0 auto;text-align:center;}
+
+  .offer{background:var(--olive-deep);color:#ece6d2;}
+  .offer h2{color:#fff;}
+  .offer .eyebrow{color:var(--gold-bright);}
+  .offer .lead{color:#dcd7bd;}
+  .form-card{max-width:600px;margin:34px auto 0;background:rgba(255,255,255,.06);border:1px solid rgba(203,168,90,.3);border-radius:12px;padding:42px 36px;text-align:center;box-shadow:0 30px 70px rgba(0,0,0,.3);}
+  .form-card h3{color:#fff;font-size:1.7rem;margin-bottom:8px;}
+  .form-card p{color:#cfc9ac;margin-bottom:24px;}
+  .form-row{display:flex;flex-direction:column;gap:12px;max-width:400px;margin:0 auto;}
+  .form-row input{padding:15px 18px;border-radius:6px;border:1px solid rgba(255,255,255,.18);background:rgba(255,255,255,.07);color:#fff;font-family:'Inter',sans-serif;font-size:1rem;}
+  .form-row input::placeholder{color:#ada587;}
+  .form-row input:focus{outline:none;border-color:var(--gold-bright);}
+  .form-note{font-size:.82rem;color:#ada587;margin-top:16px;}
+
+  .faq{max-width:800px;margin:34px auto 0;}
+  .q{border:1px solid var(--line);border-radius:8px;margin-bottom:12px;background:var(--paper);overflow:hidden;}
+  .alt .q{background:var(--cream);}
+  .q-head{width:100%;text-align:left;background:none;border:none;cursor:pointer;padding:20px 24px;font-weight:500;font-size:1.14rem;color:var(--ink);display:flex;justify-content:space-between;align-items:center;gap:16px;font-family:'Fraunces',serif;}
+  .q-icon{flex-shrink:0;font-size:1.4rem;color:var(--gold);transition:transform .25s ease;}
+  .q.open .q-icon{transform:rotate(45deg);}
+  .q-body{max-height:0;overflow:hidden;transition:max-height .3s ease;color:var(--muted);}
+  .q-body p{padding:0 24px 20px;margin:0;}
+
+  .disclaimer{background:var(--cream);padding:24px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line);}
+  .disclaimer p{margin:0 auto;max-width:780px;font-size:.84rem;color:var(--muted);text-align:center;font-style:italic;}
+
+  footer{background:var(--deep);color:#ada587;padding:48px 0;}
+  .foot-inner{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:20px;}
+  .foot-nav{display:flex;gap:26px;flex-wrap:wrap;}
+  .foot-nav a{color:#ada587;font-size:.92rem;transition:color .2s ease;}
+  .foot-nav a:hover{color:#fff;}
+  .copy{font-size:.84rem;color:#7d765c;margin-top:8px;width:100%;}
+
+  .reveal{opacity:0;transform:translateY(24px);transition:opacity .65s ease, transform .65s ease;}
+  .reveal.show{opacity:1;transform:none;}
+  .eyebrow{text-transform:uppercase;letter-spacing:.24em;font-weight:600;font-size:.74rem;color:var(--olive);margin-bottom:14px;font-family:'Inter',sans-serif;}
+  .center{text-align:center;}
+
+  @media(max-width:860px){
+    h1{font-size:2.3rem;}.hero h1{font-size:2.4rem;}h2{font-size:1.8rem;}
+    .col-grid{grid-template-columns:repeat(2,1fr);}
+    .pillars{grid-template-columns:repeat(2,1fr);}
+    .feat{grid-template-columns:1fr;gap:24px;}
+    section{padding:56px 0;}
+    .nav-inner{height:64px;}
+  }
+</style>
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav>
+  <div class="wrap nav-inner">
+    <div class="wordmark">Maknoon<small>Levantine Olive Oil</small></div>
+    <a href="https://discovermaknoon.com" target="_blank" rel="noopener" class="btn btn-sm">Shop now</a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<header class="hero">
+  <div class="wrap">
+    <p class="kicker reveal">Single-farm Levantine olive oil &amp; gifting</p>
+    <h1 class="reveal">The oil the finest houses <span class="it">choose to gift.</span></h1>
+    <div class="hero-rule reveal"></div>
+    <p class="hero-sub reveal">Extra virgin olive oil from small family farms in Lebanon, Palestine, and Syria, selected by a certified olive oil sommelier. Beautiful to taste, beautiful to give.</p>
+    <div class="hero-cta reveal">
+      <a href="https://discovermaknoon.com" target="_blank" rel="noopener" class="btn btn-gold">Shop the collection</a>
+      <a href="https://discovermaknoon.com" target="_blank" rel="noopener" class="btn btn-ghost">Corporate gifting</a>
+    </div>
+    <p class="trust-line reveal">Chosen as gifts by the world's finest houses &middot; Stocked at Galeries Lafayette, Dubai Mall</p>
+  </div>
+</header>
+
+<!-- TRUST STRIP -->
+<div class="strip">
+  <div class="wrap">
+    <div class="strip-label">Chosen &amp; stocked by</div>
+    <div class="strip-grid">
+      <span>Rolex</span><span class="dot">&bull;</span>
+      <span>Van Cleef &amp; Arpels</span><span class="dot">&bull;</span>
+      <span>Galeries Lafayette, Dubai Mall</span>
+    </div>
+  </div>
+</div>
+
+<!-- COLLECTIONS -->
+<section>
+  <div class="wrap">
+    <p class="eyebrow reveal">The collections</p>
+    <h2 class="reveal">One oil, many expressions</h2>
+    <p class="lead reveal">Single-origin, lab-tested, early-harvest. From the classic country oils to infusions and pantry staples, each is chosen for its character.</p>
+    <div class="col-grid">
+      <a href="https://discovermaknoon.com" target="_blank" rel="noopener" class="col reveal"><span class="e">&#x1FAD2;</span><h3>Classic</h3><p>Single-origin EVOO by country</p></a>
+      <a href="https://discovermaknoon.com" target="_blank" rel="noopener" class="col reveal"><span class="e">&#x1F33F;</span><h3>Infused</h3><p>Basil, garlic, rosemary, orange</p></a>
+      <a href="https://discovermaknoon.com" target="_blank" rel="noopener" class="col reveal"><span class="e">&#x1F35E;</span><h3>Zaatar</h3><p>Regional zaatar blends</p></a>
+      <a href="https://discovermaknoon.com" target="_blank" rel="noopener" class="col reveal"><span class="e">&#x1F381;</span><h3>Gifts</h3><p>Ready-made &amp; corporate hampers</p></a>
+    </div>
+  </div>
+</section>
+
+<!-- FEATURE: SOMMELIER -->
+<section class="alt">
+  <div class="wrap">
+    <div class="feat">
+      <div class="feat-card reveal">
+        <span class="tag">The difference</span>
+        <h3>Chosen by a sommelier</h3>
+        <p>Our founder is a certified olive oil sommelier. Every oil is selected for purity, low acidity, and early-harvest character, then lab-tested. This is not a commodity oil in a pretty bottle.</p>
+        <a href="https://discovermaknoon.com" target="_blank" rel="noopener" class="btn btn-sm btn-gold" style="margin-top:8px;">Explore the oils</a>
+      </div>
+      <div class="reveal">
+        <p class="eyebrow">From farm to bottle</p>
+        <h2>Single farms. Fair pay. A tree per bottle.</h2>
+        <p class="lead" style="margin-top:8px;">We source directly from small family farms across the Levant and pay them upfront at their rate. The Palestine line plants a tree for every bottle sold. Real provenance, with a conscience.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PILLARS -->
+<section>
+  <div class="wrap">
+    <p class="eyebrow reveal center">Why Maknoon</p>
+    <h2 class="reveal center">Worthy of giving, made to enjoy</h2>
+    <div class="pillars">
+      <div class="pillar reveal"><span class="e">&#x1F3C6;</span><h4>Sommelier-Selected</h4><p>Chosen for character, not just price.</p></div>
+      <div class="pillar reveal"><span class="e">&#x1F33E;</span><h4>Single-Farm</h4><p>Direct, traceable Levantine sourcing.</p></div>
+      <div class="pillar reveal"><span class="e">&#x1F52C;</span><h4>Lab-Tested</h4><p>Low acidity, early-harvest purity.</p></div>
+      <div class="pillar reveal"><span class="e">&#x1F381;</span><h4>Gift-Ready</h4><p>Packaging fit for the finest houses.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- CORPORATE -->
+<section class="corp">
+  <div class="wrap">
+    <div class="corp-inner reveal">
+      <p class="eyebrow">Corporate gifting</p>
+      <h2>Gifts your clients actually keep</h2>
+      <p>Custom-branded hampers and bottles for the teams, partners, and clients you want to impress, the same oils chosen by Rolex and Van Cleef &amp; Arpels. Tell us your numbers and the occasion, and we will put together a gift that carries your name beautifully.</p>
+      <a href="https://discovermaknoon.com" target="_blank" rel="noopener" class="btn btn-gold" style="margin-top:10px;">Enquire about corporate gifting</a>
+    </div>
+  </div>
+</section>
+
+<!-- OFFER / CAPTURE -->
+<section class="offer" id="offer">
+  <div class="wrap">
+    <p class="eyebrow reveal center">Stay in touch</p>
+    <h2 class="reveal center">A little something to start</h2>
+    <p class="lead reveal center" style="margin:14px auto 0;">Join our list for a welcome offer on your first order, plus sommelier notes, recipes, and first access to seasonal gifts.</p>
+    <div class="form-card reveal">
+      <h3>Join the list</h3>
+      <p>Your welcome offer, sent straight to your inbox.</p>
+      <form class="form-row" onsubmit="event.preventDefault();this.innerHTML='<p style=\'color:#fff;margin:0;\'>Thank you. Check your inbox for your welcome offer.</p>';">
+        <input type="text" name="name" placeholder="Your name" required>
+        <input type="email" name="email" placeholder="Your email" required>
+        <button type="submit" class="btn btn-gold" style="width:100%;">Send my welcome offer</button>
+      </form>
+      <p class="form-note">No spam. Sommelier notes, recipes, and seasonal gifts.</p>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section>
+  <div class="wrap">
+    <p class="eyebrow reveal center">Good to know</p>
+    <h2 class="reveal center">Your questions</h2>
+    <div class="faq">
+      <div class="q"><button class="q-head">Where is the olive oil from?<span class="q-icon">+</span></button><div class="q-body"><p>From small family farms across the Levant, Lebanon, Palestine, and Syria. Each oil is single-origin and traceable, selected by our certified olive oil sommelier and lab-tested.</p></div></div>
+      <div class="q"><button class="q-head">Do you do corporate gifting?<span class="q-icon">+</span></button><div class="q-body"><p>Yes, it is one of the things we do best. Custom-branded hampers and bottles for clients, teams, and partners, the same oils chosen by some of the world's finest houses. Enquire and we will tailor it to your occasion and quantities.</p></div></div>
+      <div class="q"><button class="q-head">Is it really premium, or just nicely packaged?<span class="q-icon">+</span></button><div class="q-body"><p>Both. Our founder is a certified olive oil sommelier, the oils are early-harvest with low acidity and lab-tested, and they are stocked at Galeries Lafayette. The bottle is beautiful because the oil deserves it.</p></div></div>
+      <div class="q"><button class="q-head">Do you deliver across the UAE?<span class="q-icon">+</span></button><div class="q-body"><p>Yes, we deliver across the UAE, with complimentary delivery on larger orders. Shipping options appear at checkout.</p></div></div>
+      <div class="q"><button class="q-head">What makes it a good gift?<span class="q-icon">+</span></button><div class="q-body"><p>It is useful, beautiful, and meaningful, with a real provenance and a social mission behind every bottle. It is the kind of gift people remember and actually use.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- FINAL CTA -->
+<section class="alt center">
+  <div class="wrap">
+    <h2 class="reveal">Taste why the finest houses choose Maknoon.</h2>
+    <p class="lead reveal center" style="margin:14px auto 28px;">Shop the collection or arrange corporate gifting, delivered across the UAE.</p>
+    <a href="https://discovermaknoon.com" target="_blank" rel="noopener" class="btn btn-gold reveal">Shop the collection</a>
+  </div>
+</section>
+
+<!-- DISCLAIMER -->
+<div class="disclaimer">
+  <div class="wrap">
+    <p>Maknoon offers single-origin Levantine olive oil and gifting. Brand partnerships and stockists referenced reflect gifting and retail relationships. Sourcing, certifications, and social initiatives are as described by Maknoon.</p>
+  </div>
+</div>
+
+<!-- FOOTER -->
+<footer>
+  <div class="wrap foot-inner">
+    <div class="wordmark" style="color:#fff;">Maknoon<small style="color:#7d765c;">Levantine Olive Oil</small></div>
+    <div class="foot-nav">
+      <a href="https://discovermaknoon.com" target="_blank" rel="noopener">discovermaknoon.com</a>
+      <a href="https://www.instagram.com/discovermaknoon/" target="_blank" rel="noopener">Instagram</a>
+      <a href="#offer">Welcome offer</a>
+    </div>
+    <div class="copy">&copy; 2026 Maknoon. Single-farm Levantine olive oil &amp; gifting. All rights reserved.</div>
+  </div>
+</footer>
+
+<script>
+  var io = new IntersectionObserver(function(entries){
+    entries.forEach(function(e){ if(e.isIntersecting){ e.target.classList.add('show'); io.unobserve(e.target); } });
+  },{threshold:0.12});
+  document.querySelectorAll('.reveal').forEach(function(el){ io.observe(el); });
+
+  document.querySelectorAll('.q-head').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      var q = btn.parentElement;
+      var body = q.querySelector('.q-body');
+      var isOpen = q.classList.contains('open');
+      document.querySelectorAll('.q').forEach(function(other){
+        other.classList.remove('open');
+        other.querySelector('.q-body').style.maxHeight = null;
+      });
+      if(!isOpen){ q.classList.add('open'); body.style.maxHeight = body.scrollHeight + 'px'; }
+    });
+  });
+</script>
+</body>
+</html>
